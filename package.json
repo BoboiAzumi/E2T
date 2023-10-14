@@ -1,0 +1,33 @@
+{
+  "name": "e2t",
+  "version": "1.0.0",
+  "description": "ExpressJS + EJS Templating Engine + Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev" : "concurrently \"npx tailwindcss -i ./src/tailwind.css -o ./public/css/dist.css --watch\" \"nodemon index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoboiAzumi/E2T.git"
+  },
+  "keywords": [
+    "E2T"
+  ],
+  "author": "BoboiAzumi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BoboiAzumi/E2T/issues"
+  },
+  "homepage": "https://github.com/BoboiAzumi/E2T#readme",
+  "dependencies": {
+    "concurrently": "^8.2.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "expressjs": "^1.0.1",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

@@ -1,0 +1,8 @@
+body, html{
+    margin: 0;
+    background-image: url("/img/background.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
